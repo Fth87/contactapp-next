@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 'use client';
-import Input from '../component/Input';
-import Button from '../component/Button';
-import ContactDetail from '../component/ContactDetail';
+import Input from '../components/Input';
+import Button from '../components/Button';
+import ContactDetail from '../components/ContactDetail';
 import { useEffect, useState } from 'react';
-import Loading from '../component/loading/Loading';
+import Loading from '../components/loading/Loading';
 
 function App() {
   const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
